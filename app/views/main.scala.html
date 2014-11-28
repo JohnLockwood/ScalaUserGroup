@@ -12,19 +12,24 @@
         <script src="@routes.Assets.at("javascripts/hello.js")" type="text/javascript"></script>
     </head>
     <body>
+
 	    <div class="container">
-			<div class="header">
-		        <ul class="nav nav-tabs pull-right">        
+	    <h3>ScalaUserGroup.org</h3>		
+			<div class="header">		    
+			     <ul class="nav nav-tabs pull-right">     
 			        <li><a href="/">Home</a></li>        
 			        <li><a href="/join">Join Us</a></li>
 			        <li><a href="/projects">Projects</a></li>
 			        <li><a href="/members">Members</a></li>
 			        <li><a href="/meetings">Meetings</a></li>
-		        </ul>        
-	        </div>
-	        <article>   
+			        <li><a href"https://github.com/CodeSolid/ScalaUserGroup/">Fork</a></li>
+    			</ul>        
+    		</div>
+    		
+	        <article class="clearfix">   
 	        @content
 	        </article>
+	        
 	    </div>
     </body>
 </html>
