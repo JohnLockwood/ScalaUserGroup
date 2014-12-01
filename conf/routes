@@ -8,6 +8,7 @@ GET     /                           controllers.Application.index
 GET		/join						controllers.Application.join
 GET		/projects					controllers.Application.projects
 GET		/members					controllers.Application.members
+GET		/member/:page				controllers.Member.index(page)
 GET		/meetings					controllers.Application.meetings
 
 
