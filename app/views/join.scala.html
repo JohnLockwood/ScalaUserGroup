@@ -2,9 +2,23 @@
 
 @main("ScalaUserGroup.org") {
 <h1>Join</h1>
-<p>On the one hand, you're a member when you say so.  Pretty easy, huh?</p>
+<p>On the one hand, you're a member when you say so.  Pretty easy, huh?  Easy peezy.</p>
 <p>That's not much of a group, though, is it?  We need a way to keep in touch. Members who want to discuss issues pertaining to the group and find out what's happening with meetings, etc. are encouraged to make use of our discussion list.</p>
-<p>Users wishing to view postings or subscribe/unsubscribe to the discussion list should visit <a href="https://groups.yahoo.com/group/ScalaUserGroup">https://groups.yahoo.com/group/ScalaUserGroup</a>.</p>
+<div>
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/scalausergroup'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+</div>
 <p>Another way to participate is to <a href="http://github.com/CodeSolid/ScalaUserGroup">fork this site</a> and help us build some content for it.  Operators are standing by to take your fork requests.</p>
 <p>
 }
